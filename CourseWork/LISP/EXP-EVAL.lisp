@@ -1,0 +1,5 @@
+(defun exp-eval (expression)
+(cond ((numberp expression) expression)
+((funcall (second expression)
+(exp-eval (first expression))
+(exp-eval (third expression))))))

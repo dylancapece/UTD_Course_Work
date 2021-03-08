@@ -1,0 +1,32 @@
+;; Dribble of #<IO TERMINAL-STREAM> started on 2019-10-21 00:57:07.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"p1nim2.txt">
+[45]> (load "p1nim2.lisp")
+;; Loading file p1nim2.lisp ...
+;; Loaded file p1nim2.lisp
+T
+[46]> (p1nim2 3)
+The total number of the leaf node generated: 278
+The total number of the nodes generated: 608
+The first solution: the depth of the solution is: 608
+The best solution: the depth of the solution is: 608
+NIL
+[47]> (p1nim2 4)
+The total number of the leaf node generated: 285
+The total number of the nodes generated: 623
+The first solution: the depth of the solution is: 623
+The best solution: the depth of the solution is: 623
+NIL
+[48]> (p1nim2 5)
+The total number of the leaf node generated: 298
+The total number of the nodes generated: 651
+The first solution: the depth of the solution is: 651
+The best solution: the depth of the solution is: 651
+NIL
+[49]> (p1nim2 10)
+The total number of the leaf node generated: 572
+The total number of the nodes generated: 1251
+The first solution: the depth of the solution is: 1251
+The best solution: the depth of the solution is: 1251
+NIL
+[50]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2019-10-21 00:57:45.

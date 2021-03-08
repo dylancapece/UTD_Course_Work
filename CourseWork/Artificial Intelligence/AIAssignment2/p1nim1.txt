@@ -1,0 +1,39 @@
+;; Dribble of #<IO TERMINAL-STREAM> started on 2019-10-20 19:41:32.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"p1nim1.txt">
+[39]> (load "p1nim1.lisp")
+;; Loading file p1nim1.lisp ...
+LISP Nim
+
+;; Loaded file p1nim1.lisp
+T
+[40]> (p1nim1 3)
+((p1 2) 1)
+((p2 1) 0)
+
+**P2 wins**
+NIL
+[41]> (p1nim1 4)
+((p1 3) 1)
+((p2 1) 0)
+
+**P2 wins**
+NIL
+[42]> (p1nim1 5)
+((p1 1) 4)
+((p2 3) 1)
+((p1 1) 0)
+
+**P1 wins**
+NIL
+[43]> (p1nim1 10)
+((p1 3) 7)
+((p2 1) 6)
+((p1 2) 4)
+((p2 2) 2)
+((p1 1) 1)
+((p2 1) 0)
+
+**P2 wins**
+NIL
+[44]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2019-10-20 19:42:33.

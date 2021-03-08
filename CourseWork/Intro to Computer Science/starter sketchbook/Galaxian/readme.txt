@@ -1,0 +1,1 @@
+This is the starter sketchbook that can be used as a basis for the design and implementation of the Galaxian game. 

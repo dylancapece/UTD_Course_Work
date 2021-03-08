@@ -1,0 +1,8 @@
+(defun fibo1 (n)
+  (cond ((or (not (numberp n)) (< n 0)) 
+	 (error "not a valid number to compute" n))
+	((eql n 0) 0)  
+	((eql n 1) 1)  
+	(t (+ (fibo1 (- n 1))   
+	      (fibo1 (- n 2))))
+	))
